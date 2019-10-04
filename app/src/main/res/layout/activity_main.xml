@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/format24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="24H"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="6dp"/>
+
+                <Button
+                    android:id="@+id/format12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="12H"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="6dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/operaHouse"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:alpha=".8"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/operahouse" />
+
+                <TextView
+                    android:id="@+id/sydney"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#BE3407"
+                    android:text="Sydney"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sydneyTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#FF5722"
+                    android:text=""
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/barcaImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha=".8"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/barcelona" />
+
+                <TextView
+                    android:id="@+id/barca"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#BE3407"
+                    android:text="Barcelona"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/barcaTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#FF5722"
+                    android:text=""
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/cantonImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha=".8"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/canton" />
+
+                <TextView
+                    android:id="@+id/canton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#BE3407"
+                    android:text="Canton"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cantonTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#FF5722"
+                    android:text=""
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/laImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:alpha=".8"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/la" />
+
+                <TextView
+                    android:id="@+id/la"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#BE3407"
+                    android:text="Los Angeles"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/laTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#FF5722"
+                    android:text=""
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativeLayout5"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/tokyoImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha=".8"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/tokyo" />
+
+                <TextView
+                    android:id="@+id/tokyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#BE3407"
+                    android:text="Tokyo"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tokyoTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#FF5722"
+                    android:text=""
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
